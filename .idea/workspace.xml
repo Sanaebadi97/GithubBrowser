@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/dependecyinjection/ViewModelTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -17,9 +16,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dependecyinjection/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dependecyinjection/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dependecyinjection/ViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/dependecyinjection/ViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/dependecyinjection/ViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/dependecyinjection/ViewModelTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598554322562</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added ViewModelTest.kt for test the count">
+      <created>1598555246766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598555246766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,21 +291,22 @@
     <MESSAGE value="added callback in ViewModel.kt" />
     <MESSAGE value="added listener on buttons add and minus" />
     <MESSAGE value="added counter instance in viewModel constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="added counter instance in viewModel constructor" />
+    <MESSAGE value="added ViewModelTest.kt for test the count" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ViewModelTest.kt for test the count" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1598269940057">
+    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1598555356803">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269940057" />
+    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555356803" />
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog" timestamp="1598269657587">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="332" y="20" key="CommitChangelistDialog2" timestamp="1598554322484">
+    <state x="332" y="20" key="CommitChangelistDialog2" timestamp="1598555246667">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="332" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598554322484" />
+    <state x="332" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555246667" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598548383921">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -312,29 +319,33 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="427" y="24" key="Github.UntrackedFilesDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598268820483" />
-    <state width="1320" height="148" key="GridCell.Tab.0.bottom" timestamp="1598555229147">
+    <state width="1320" height="282" key="GridCell.Tab.0.bottom" timestamp="1598555628888">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="148" key="GridCell.Tab.0.bottom/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555229147" />
-    <state width="1320" height="148" key="GridCell.Tab.0.center" timestamp="1598555229147">
+    <state width="1320" height="282" key="GridCell.Tab.0.bottom/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555628888" />
+    <state width="1320" height="282" key="GridCell.Tab.0.center" timestamp="1598555628888">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="148" key="GridCell.Tab.0.center/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555229147" />
-    <state width="1320" height="148" key="GridCell.Tab.0.left" timestamp="1598555229147">
+    <state width="1320" height="282" key="GridCell.Tab.0.center/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555628888" />
+    <state width="1320" height="282" key="GridCell.Tab.0.left" timestamp="1598555628888">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="148" key="GridCell.Tab.0.left/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555229147" />
-    <state width="1320" height="148" key="GridCell.Tab.0.right" timestamp="1598555229147">
+    <state width="1320" height="282" key="GridCell.Tab.0.left/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555628888" />
+    <state width="1320" height="282" key="GridCell.Tab.0.right" timestamp="1598555628888">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="148" key="GridCell.Tab.0.right/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555229147" />
+    <state width="1320" height="282" key="GridCell.Tab.0.right/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555628888" />
     <state x="198" y="32" key="SettingsEditor" timestamp="1598548178227">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598548178227" />
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598554323494">
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598555247967">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598554323494" />
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555247967" />
+    <state x="442" y="31" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598555684174">
+      <screen x="0" y="20" width="1366" height="748" />
+    </state>
+    <state x="442" y="31" key="git4idea.branch.GitSmartOperationDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555684174" />
   </component>
 </project>

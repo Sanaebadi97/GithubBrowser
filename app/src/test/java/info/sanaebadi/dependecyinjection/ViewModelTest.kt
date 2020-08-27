@@ -1,6 +1,5 @@
 package info.sanaebadi.dependecyinjection
 
-import android.view.View
 import org.junit.Before
 import org.junit.Test
 
@@ -9,7 +8,7 @@ class ViewModelTest {
 
     @Before
     fun setUp() {
-        viewModel = ViewModel()
+        viewModel = ViewModel(FakeCounter())
     }
 
     @Test
@@ -18,6 +17,21 @@ class ViewModelTest {
         viewModel.countUpdateCallback = { count -> lastEmittedCount = count }
         viewModel.addClicked()
 
-        assert(lastEmittedCount == 1 )
+        assert(lastEmittedCount == 1)
+    }
+
+
+}
+
+class FakeCounter : Counter {
+    private var count = 0
+    override fun getCount(): Int = count
+
+    override fun increment() {
+        count++
+    }
+
+    override fun decrement() {
+        count--
     }
 }
