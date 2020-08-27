@@ -1,12 +1,14 @@
 package info.sanaebadi.dependecyinjection
 
-class  ViewModel(private val counter: Counter ) {
+class  ViewModel{
 
     var countUpdateCallback: ((Int) -> Unit)? = null
         set(value) {
             field = value
             value?.invoke(counter.getCount())
         }
+
+    private val counter: Counter = SingleStepCounter()
 
 
     fun addClicked() {
