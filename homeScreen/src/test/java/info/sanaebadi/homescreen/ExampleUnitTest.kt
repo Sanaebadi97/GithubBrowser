@@ -1,4 +1,4 @@
-package info.sanaebadi.test
+package info.sanaebadi.homescreen
 
 import org.junit.Test
 
