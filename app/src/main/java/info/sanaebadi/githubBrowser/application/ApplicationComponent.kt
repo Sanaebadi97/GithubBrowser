@@ -3,15 +3,13 @@ package info.sanaebadi.githubBrowser.application
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
+import info.sanaebadi.appdeps.ApplicationDeps
 import info.sanaebadi.githubapi.GithubApiModule
-import info.sanaebadi.repository.AppRepository
 import javax.inject.Singleton
 
 @Singleton
 @Component(modules = [GithubApiModule::class])
-interface ApplicationComponent {
-
-    fun appRepository(): AppRepository
+interface ApplicationComponent : ApplicationDeps {
 
     @Component.Factory
     interface Factory {

@@ -10,22 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appdeps/src/main/java/info/sanaebadi/appdeps/ApplicationDeps.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appdeps/src/main/java/info/sanaebadi/appdeps/HasApplicationDeps.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_3_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_3_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk8_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk8_1_3_61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appdeps/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/appdeps/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appdeps/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appdeps/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/githubBrowser/application/ApplicationComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/githubBrowser/application/ApplicationComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/githubBrowser/application/GithubBrowserApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/githubBrowser/application/GithubBrowserApp.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,12 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598645072930</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added some interface in appdeps">
+      <created>1598646472020</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1598646472020</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added ViewModel.kt and some functions" />
     <MESSAGE value="added callback in ViewModel.kt" />
     <MESSAGE value="added listener on buttons add and minus" />
     <MESSAGE value="added counter instance in viewModel constructor" />
@@ -507,17 +499,18 @@
     <MESSAGE value="added ViewModel Factory" />
     <MESSAGE value="added annotation" />
     <MESSAGE value="added appdeps module" />
-    <option name="LAST_COMMIT_MESSAGE" value="added appdeps module" />
+    <MESSAGE value="added some interface in appdeps" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some interface in appdeps" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="135" key="#PSD" timestamp="1598645603828">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="232" y="135" key="#PSD/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598645603828" />
-    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1598643127422">
+    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1598646688682">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598643127422" />
+    <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598646688682" />
     <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog" timestamp="1598637298936">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -530,10 +523,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="332" y="20" key="CommitChangelistDialog2" timestamp="1598645072815">
+    <state x="332" y="20" key="CommitChangelistDialog2" timestamp="1598646471894">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="332" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598645072815" />
+    <state x="332" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598646471894" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598548383921">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -566,10 +559,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598619878292" />
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598645074251">
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598646472908">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598645074251" />
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598646472908" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598635667331">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
