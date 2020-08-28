@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DependecyInjection/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/githubapi/githubapi.iml" filepath="$PROJECT_DIR$/.idea/modules/githubapi/githubapi.iml" group="DependecyInjection/githubapi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mylibrary/mylibrary.iml" group="DependecyInjection/app/mylibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository.iml" group="DependecyInjection/repository" />
     </modules>
   </component>
 </project>
