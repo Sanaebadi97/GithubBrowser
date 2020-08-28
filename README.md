@@ -9,7 +9,7 @@ We’re going to build an app from the ground up, but we’ll focus mostly on ho
 
 ## Topics include:
 
-Components/Modules
+- Components/Modules
 Scopes
 Qualifiers
 Multibindings
