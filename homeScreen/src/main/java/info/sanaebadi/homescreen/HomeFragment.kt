@@ -1,11 +1,11 @@
-package info.sanaebadi.home
+package info.sanaebadi.homescreen
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import info.sanaebadi.home.databinding.ScreenHomeBinding
+import info.sanaebadi.homescreen.databinding.ScreenHomeBinding
 
 class HomeFragment : Fragment() {
 
