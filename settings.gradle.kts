@@ -1,3 +1,4 @@
+include(":home")
 include(":repository")
 include(":app:mylibrary")
 include(":githubapi")

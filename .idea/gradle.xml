@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/app/mylibrary" />
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/githubapi" />
+            <option value="$PROJECT_DIR$/home" />
             <option value="$PROJECT_DIR$/repository" />
           </set>
         </option>
