@@ -39,6 +39,7 @@ dependencies {
     implementation(Libraries.viewModel)
     implementation(Libraries.liveData)
     implementation(project(mapOf("path" to ":repository")))
+    implementation(project(mapOf("path" to ":di")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
