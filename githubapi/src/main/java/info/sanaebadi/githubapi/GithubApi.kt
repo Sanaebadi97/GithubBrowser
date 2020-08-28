@@ -2,12 +2,15 @@ package info.sanaebadi.githubapi
 
 import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
+import javax.inject.Inject
+import javax.inject.Singleton
 
 interface GithubApi {
     fun getTopRepositories(): List<RepoApiModel>
 }
 
-class MockGithubApi : GithubApi {
+@Singleton
+class MockGithubApi @Inject constructor() : GithubApi {
     override fun getTopRepositories(): List<RepoApiModel> {
         return listOf(
             RepoApiModel(

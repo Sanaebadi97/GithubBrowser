@@ -10,7 +10,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/model/RepoApiModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/model/RepoApiModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApiModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_3_61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_3_61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk8_1_3_61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk8_1_3_61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mylibrary/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/githubBrowser/application/ApplicationComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/githubBrowser/application/ApplicationComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubapi/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApi.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +111,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../sdk/sdk-tools-linux-3859397" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="memory.settings.postsync.last.time.stamp" value="1598547651224" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -340,10 +383,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added UserModel for user login" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="207" y="132" key="#PSD" timestamp="1598621454863">
+    <state x="207" y="132" key="#PSD" timestamp="1598624235331">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="207" y="132" key="#PSD/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598621454863" />
+    <state x="207" y="132" key="#PSD/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598624235331" />
     <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1598555356803">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -388,10 +431,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598619878292" />
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598622552563">
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598622817465">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598622552563" />
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598622817465" />
     <state x="327" y="99" width="712" height="590" key="find.popup" timestamp="1598613615446">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -400,5 +443,9 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="442" y="31" key="git4idea.branch.GitSmartOperationDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598555684174" />
+    <state x="0" y="20" key="psd.add.module.dependency.panel.dimension" timestamp="1598624233063">
+      <screen x="0" y="20" width="1366" height="748" />
+    </state>
+    <state x="0" y="20" key="psd.add.module.dependency.panel.dimension/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598624233063" />
   </component>
 </project>

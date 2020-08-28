@@ -33,8 +33,7 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
-    implementation("androidx.appcompat:appcompat:1.2.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.0.0")
+    implementation(project(":githubapi"))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)

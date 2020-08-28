@@ -2,6 +2,7 @@ plugins {
     id(BuildPlugins.androidLibrary)
     id(BuildPlugins.kotlinAndroidExtensions)
     id(BuildPlugins.kotlinAndroid)
+    id(BuildPlugins.kaptPlugin)
 }
 
 android {
@@ -36,6 +37,11 @@ dependencies {
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
     androidTestImplementation(TestLibraries.espresso)
+
+    implementation(DaggerLib.dagger)
+    implementation(DaggerLib.daggerSupport)
+    kapt(DaggerLib.daggerCompiler)
+    kapt(DaggerLib.daggerProcessor)
 
 
 }

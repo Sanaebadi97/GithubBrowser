@@ -3,11 +3,11 @@ package info.sanaebadi.githubBrowser.application
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
-import java.security.AccessControlContext
+import info.sanaebadi.githubapi.GithubApiModule
 import javax.inject.Singleton
 
 @Singleton
-@Component
+@Component(modules = [GithubApiModule::class])
 interface ApplicationComponent {
 
     @Component.Factory
