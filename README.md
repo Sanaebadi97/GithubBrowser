@@ -13,7 +13,8 @@ We’re going to build an app from the ground up, but we’ll focus mostly on ho
 
 - Scopes
 
-Qualifiers
+- Qualifiers
+
 Multibindings
 Component lifecycle management
 Swapping injected dependencies in Espresso tests
