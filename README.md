@@ -1,5 +1,5 @@
-Course
-Dependency Injection with Dagger 2
+
+## Dependency Injection with Dagger 2
 
 About
 In this course, you’ll learn about dependency injection with Dagger 2, including diving into the generated code to understand how Dagger works under the hood.
