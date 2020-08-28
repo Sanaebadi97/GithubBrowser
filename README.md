@@ -2,7 +2,8 @@
 ## Dependency Injection with Dagger 2
 
 # About
-In this course, you’ll learn about dependency injection with Dagger 2, including diving into the generated code to understand how Dagger works under the hood.
+
+In this course, you’ll learn about **dependency injection with Dagger 2**, including diving into the generated code to understand how Dagger works under the hood.
 
 We’re going to build an app from the ground up, but we’ll focus mostly on how Dagger works, rather than “this is the exact architecture you should use in your app”. Different architectures fit different needs and styles, and Dagger can be a huge boon to anyone of them. Once the Dagger magic is gone, it’s much easier to make it work for you, in your own way. That’s the goal of this course.
 
