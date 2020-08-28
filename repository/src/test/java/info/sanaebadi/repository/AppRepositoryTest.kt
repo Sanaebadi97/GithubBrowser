@@ -3,7 +3,9 @@ package info.sanaebadi.repository
 import info.sanaebadi.githubapi.GithubApi
 import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
+import org.junit.Assert.assertThat
 import org.junit.Before
+import org.junit.Test
 
 
 private val fakeREpoApiModel = RepoApiModel(
@@ -28,6 +30,14 @@ class AppRepositoryTest {
     @Before
     fun setUp() {
         appRepository = AppRepository(fakeGithubApi)
+    }
+
+    @Test
+    fun successfulQuery() {
+        val topRepos = appRepository.getTopRepos()
+
+        assertThat(topRepos.size).isEqualTo(1)
+        assertThat(topRepos[0]).isEqualTo(fakeREpoApiModel)
     }
 }
 
