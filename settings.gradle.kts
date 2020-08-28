@@ -1,3 +1,4 @@
+include(":appdeps")
 include(":di")
 include(":homeScreen")
 include(":repository")

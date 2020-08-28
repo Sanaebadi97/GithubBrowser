@@ -10,18 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/di/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/src/androidTest/java/info/sanaebadi/di/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/src/main/java/info/sanaebadi/di/viewModel/AppViewModelFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/di/src/test/java/info/sanaebadi/di/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/src/androidTest/java/info/sanaebadi/appdeps/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appdeps/src/test/java/info/sanaebadi/appdeps/ExampleUnitTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -460,12 +456,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598641607417</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added ViewModel Factory">
+      <created>1598643787493</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1598643787493</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added annotation">
+      <created>1598644009677</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598644009677</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added Counter interface" />
     <MESSAGE value="added SingleStepCounter.kt and implement methods !" />
     <MESSAGE value="added ViewModel.kt and some functions" />
     <MESSAGE value="added callback in ViewModel.kt" />
@@ -489,7 +498,9 @@
     <MESSAGE value="added Repo item adapter" />
     <MESSAGE value="added life cycle dependencies and impliment repository in home screen module" />
     <MESSAGE value="added SealedClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="added SealedClass" />
+    <MESSAGE value="added ViewModel Factory" />
+    <MESSAGE value="added annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added annotation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="135" key="#PSD" timestamp="1598640483042">
@@ -548,10 +559,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598619878292" />
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598643788374">
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598644218158">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598643788374" />
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598644218158" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598635667331">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
