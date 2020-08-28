@@ -11,6 +11,7 @@ object BuildPlugins {
     const val androidApplication = "com.android.application"
     const val kotlinAndroid = "kotlin-android"
     const val kotlinAndroidExtensions = "kotlin-android-extensions"
+    const val kaptPlugin = "kotlin-kapt"
 
 }
 
@@ -49,7 +50,7 @@ object TestLibraries {
 }
 
 object DaggerLib{
-    const val daggerVersion = "2.21"
+    const val daggerVersion = "2.26"
 
     const val dagger="com.google.dagger:dagger:$daggerVersion"
     const val daggerCompiler="com.google.dagger:dagger-compiler:$daggerVersion"

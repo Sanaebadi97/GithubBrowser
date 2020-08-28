@@ -2,6 +2,7 @@ plugins {
     id(BuildPlugins.androidApplication)
     id(BuildPlugins.kotlinAndroid)
     id(BuildPlugins.kotlinAndroidExtensions)
+    id(BuildPlugins.kaptPlugin)
 }
 
 android {
@@ -39,8 +40,8 @@ dependencies {
 
 
     implementation(DaggerLib.dagger)
-    annotationProcessor(DaggerLib.daggerCompiler)
-    annotationProcessor(DaggerLib.daggerProcessor)
     implementation(DaggerLib.daggerSupport)
+    kapt(DaggerLib.daggerCompiler)
+    kapt(DaggerLib.daggerProcessor)
 
 }
