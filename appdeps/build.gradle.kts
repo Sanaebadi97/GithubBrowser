@@ -33,6 +33,7 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
+    implementation(project(mapOf("path" to ":repository")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)

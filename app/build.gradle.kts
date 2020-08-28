@@ -37,6 +37,7 @@ dependencies {
 
     implementation(project(":githubapi"))
     implementation(project( ":repository"))
+    implementation(project(mapOf("path" to ":appdeps")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)

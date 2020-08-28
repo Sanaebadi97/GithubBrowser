@@ -195,5 +195,6 @@
     <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
     <orderEntry type="module" module-name="githubapi" />
     <orderEntry type="module" module-name="repository" />
+    <orderEntry type="module" module-name="appdeps" />
   </component>
 </module>
