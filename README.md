@@ -11,7 +11,8 @@ We’re going to build an app from the ground up, but we’ll focus mostly on ho
 
 - Components/Modules
 
-Scopes
+- Scopes
+
 Qualifiers
 Multibindings
 Component lifecycle management
