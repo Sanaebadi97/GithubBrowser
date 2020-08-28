@@ -21,7 +21,7 @@ object AndroidSdk {
     const val min = 21
     const val compile = 29
     const val target = compile
-    const val applicationId="info.sanaebadi.dependecyinjection"
+    const val applicationId = "info.sanaebadi.dependecyinjection"
 }
 
 object Libraries {
@@ -43,19 +43,21 @@ object TestLibraries {
         const val junit4 = "4.12"
         const val testRunner = "1.1.0-alpha4"
         const val espresso = "3.2.0"
+        const val truth = "1.0.1"
     }
 
     const val junit4 = "junit:junit:${Versions.junit4}"
     const val testRunner = "androidx.test:runner:${Versions.testRunner}"
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
+    const val truth = "com.google.truth:truth:${Versions.truth}"
 }
 
-object DaggerLib{
+object DaggerLib {
     const val daggerVersion = "2.26"
 
-    const val dagger="com.google.dagger:dagger:$daggerVersion"
-    const val daggerCompiler="com.google.dagger:dagger-compiler:$daggerVersion"
-    const val daggerProcessor="com.google.dagger:dagger-android-processor:$daggerVersion"
-    const val daggerSupport="com.google.dagger:dagger-android-support:$daggerVersion"
+    const val dagger = "com.google.dagger:dagger:$daggerVersion"
+    const val daggerCompiler = "com.google.dagger:dagger-compiler:$daggerVersion"
+    const val daggerProcessor = "com.google.dagger:dagger-android-processor:$daggerVersion"
+    const val daggerSupport = "com.google.dagger:dagger-android-support:$daggerVersion"
 
 }

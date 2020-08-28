@@ -38,6 +38,7 @@ dependencies {
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
     androidTestImplementation(TestLibraries.espresso)
+    androidTestImplementation(TestLibraries.truth)
 
     implementation(DaggerLib.dagger)
     implementation(DaggerLib.daggerSupport)
