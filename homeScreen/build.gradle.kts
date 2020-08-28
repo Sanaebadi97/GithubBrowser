@@ -36,8 +36,13 @@ dependencies {
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
     implementation(Libraries.material)
+    implementation(Libraries.viewModel)
+    implementation(Libraries.liveData)
+    implementation(project(mapOf("path" to ":repository")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
     androidTestImplementation(TestLibraries.espresso)
+
+
 }

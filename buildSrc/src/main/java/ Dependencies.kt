@@ -26,17 +26,20 @@ object AndroidSdk {
 
 object Libraries {
     private object Versions {
-        const val jetpack = "1.2.0"
+        const val appCompat = "1.2.0"
+        const val lifeCycle = "2.2.0"
         const val constraintLayout = "2.0.0"
         const val ktx = "1.3.1"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
-    const val appCompat = "androidx.appcompat:appcompat:${Versions.jetpack}"
+    const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     const val constraintLayout =
         "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val ktxCore = "androidx.core:core-ktx:${Versions.ktx}"
-    const val material = "com.google.android.material:material:${Versions.jetpack}"
+    const val material = "com.google.android.material:material:${Versions.appCompat}"
+    const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifeCycle}"
+    const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifeCycle}"
 }
 
 object TestLibraries {
