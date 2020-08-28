@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/di/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/di/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/di/src/main/java/info/sanaebadi/di/component/ComponentViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeScreen/src/main/java/info/sanaebadi/homescreen/HomeComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/homeScreen/src/main/java/info/sanaebadi/homescreen/HomeComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeScreen/src/main/java/info/sanaebadi/homescreen/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/homeScreen/src/main/java/info/sanaebadi/homescreen/HomeViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +39,8 @@
         <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -490,13 +492,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598648233541</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added viewModel to di">
+      <created>1598649687845</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1598649687845</updated>
+    </task>
+    <task id="LOCAL-00037" summary="created scope in di">
+      <created>1598649763005</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1598649763005</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added ViewModelTest.kt for test the count" />
-    <MESSAGE value="added dagger libs" />
     <MESSAGE value="added Dagger Component" />
     <MESSAGE value="created new module and migrate to kotlin dsl" />
     <MESSAGE value="added UserModel for user login" />
@@ -520,7 +534,9 @@
     <MESSAGE value="added di in home module" />
     <MESSAGE value="added HomeComponent.kt" />
     <MESSAGE value="added factory and viewModel in fragment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added factory and viewModel in fragment" />
+    <MESSAGE value="added viewModel to di" />
+    <MESSAGE value="created scope in di" />
+    <option name="LAST_COMMIT_MESSAGE" value="created scope in di" />
   </component>
   <component name="WindowStateProjectService">
     <state x="252" y="83" key="#PSD" timestamp="1598647440613">
@@ -543,10 +559,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="229" y="20" key="CommitChangelistDialog2" timestamp="1598649687707">
+    <state x="229" y="20" key="CommitChangelistDialog2" timestamp="1598649762920">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="229" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598649687707" />
+    <state x="229" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598649762920" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598548383921">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -579,10 +595,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598619878292" />
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598649688926">
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598649764126">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598649688926" />
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598649764126" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598635667331">
       <screen x="0" y="20" width="1366" height="748" />
     </state>

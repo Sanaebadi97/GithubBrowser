@@ -3,10 +3,12 @@ package info.sanaebadi.homescreen
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import info.sanaebadi.di.scope.ScreenScope
 import info.sanaebadi.homescreen.list.RepoItem
 import info.sanaebadi.repository.AppRepository
 import javax.inject.Inject
 
+@ScreenScope
 class HomeViewModel @Inject constructor(
     private val appRepository: AppRepository
 ) : ViewModel() {
