@@ -10,25 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/androidTest/java/info/sanaebadi/home/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/test/java/info/sanaebadi/home/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/src/main/java/info/sanaebadi/home/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/src/main/res/layout/screen_home.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +38,7 @@
         <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="layoutResourceFile" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -396,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598634083967</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added viewBinding">
+      <created>1598635605457</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598635605457</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -417,7 +408,8 @@
     <MESSAGE value="added Truth dependency in repository module" />
     <MESSAGE value="added AppRepositoryTest.kt" />
     <MESSAGE value="added material dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added material dependency" />
+    <MESSAGE value="added viewBinding" />
+    <option name="LAST_COMMIT_MESSAGE" value="added viewBinding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="135" key="#PSD" timestamp="1598628068887">
@@ -428,14 +420,18 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598633258814" />
+    <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog" timestamp="1598635806591">
+      <screen x="0" y="20" width="1366" height="748" />
+    </state>
+    <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598635806591" />
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog" timestamp="1598269657587">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="332" y="20" key="CommitChangelistDialog2" timestamp="1598634083808">
+    <state x="332" y="20" key="CommitChangelistDialog2" timestamp="1598635605325">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="332" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598634083808" />
+    <state x="332" y="20" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598635605325" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598548383921">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -468,10 +464,18 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598619878292" />
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598634086082">
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2" timestamp="1598635606388">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598634086082" />
+    <state x="282" y="129" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598635606388" />
+    <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598635667331">
+      <screen x="0" y="20" width="1366" height="748" />
+    </state>
+    <state x="518" y="178" key="chooseDestDirectoryDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598635667331" />
+    <state x="514" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598636004430">
+      <screen x="0" y="20" width="1366" height="748" />
+    </state>
+    <state x="514" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598636004430" />
     <state x="327" y="99" width="712" height="590" key="find.popup" timestamp="1598613615446">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
