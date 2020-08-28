@@ -36,6 +36,7 @@ object Libraries {
     const val constraintLayout =
         "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val ktxCore = "androidx.core:core-ktx:${Versions.ktx}"
+    const val material = "com.google.android.material:material:${Versions.jetpack}"
 }
 
 object TestLibraries {

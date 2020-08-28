@@ -33,6 +33,7 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
+    implementation(Libraries.material)
     implementation(project(":githubapi"))
     implementation(project( ":repository"))
 
