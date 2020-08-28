@@ -1,3 +1,4 @@
+include(":di")
 include(":homeScreen")
 include(":repository")
 include(":githubapi")
