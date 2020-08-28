@@ -45,4 +45,8 @@ dependencies {
     androidTestImplementation(TestLibraries.espresso)
 
 
+    implementation(DaggerLib.dagger)
+    implementation(DaggerLib.daggerSupport)
+    kapt(DaggerLib.daggerCompiler)
+    kapt(DaggerLib.daggerProcessor)
 }
