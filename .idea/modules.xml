@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependecyInjection.iml" filepath="$PROJECT_DIR$/.idea/modules/DependecyInjection.iml" group="DependecyInjection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependecyInjection_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/DependecyInjection_buildSrc.iml" group="DependecyInjection/DependecyInjection_buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DependecyInjection/app" />
     </modules>
   </component>
