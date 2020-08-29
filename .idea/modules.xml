@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/githubapi/githubapi.iml" filepath="$PROJECT_DIR$/.idea/modules/githubapi/githubapi.iml" group="DependecyInjection/githubapi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/homeScreen/homeScreen.iml" filepath="$PROJECT_DIR$/.idea/modules/homeScreen/homeScreen.iml" group="DependecyInjection/homeScreen" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository.iml" group="DependecyInjection/repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testingapp/testingapp.iml" filepath="$PROJECT_DIR$/.idea/modules/testingapp/testingapp.iml" group="DependecyInjection/testingapp" />
     </modules>
   </component>
 </project>

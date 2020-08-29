@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/githubapi" />
             <option value="$PROJECT_DIR$/homeScreen" />
             <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/testingapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

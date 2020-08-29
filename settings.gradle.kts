@@ -1,3 +1,4 @@
+include(":testingapp")
 include(":appComponent")
 include(":appdeps")
 include(":di")
