@@ -30,6 +30,7 @@ object Libraries {
         const val lifeCycle = "2.2.0"
         const val constraintLayout = "2.0.0"
         const val ktx = "1.3.1"
+        const val fragment = "1.2.5"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
@@ -40,6 +41,7 @@ object Libraries {
     const val material = "com.google.android.material:material:${Versions.appCompat}"
     const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifeCycle}"
     const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifeCycle}"
+    const val fragmentKtx = "androidx.fragment:fragment-ktx:${Versions.fragment}"
 }
 
 object TestLibraries {

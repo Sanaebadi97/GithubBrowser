@@ -33,11 +33,13 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
+    implementation(Libraries.fragmentKtx)
 
 
     implementation(project(":githubapi"))
     implementation(project( ":repository"))
     implementation(project(mapOf("path" to ":appdeps")))
+    implementation(project(mapOf("path" to ":homeScreen")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
