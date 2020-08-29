@@ -1,10 +1,15 @@
 package info.sanaebadi.homescreen
 
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import com.google.common.truth.Truth.assertThat
 import info.sanaebadi.githubapi.GithubApi
 import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
+import info.sanaebadi.homescreen.list.RepoItem
 import info.sanaebadi.repository.AppRepository
 import org.junit.Before
+import org.junit.Rule
+import org.junit.Test
 
 
 private val fakeREpoApiModel = RepoApiModel(
@@ -23,6 +28,7 @@ private val fakeREpoApiModel = RepoApiModel(
 
 class HomeViewModelTest {
 
+    @get:Rule val taskExecutorRule = InstantTaskExecutorRule()
     private lateinit var viewModel: HomeViewModel
     private lateinit var viewStateValues: MutableList<HomeViewState>
 
@@ -30,6 +36,25 @@ class HomeViewModelTest {
     fun setUp() {
         val appRepository = AppRepository(FakeGithubApi())
         viewStateValues = mutableListOf()
+
+        viewModel = HomeViewModel(appRepository)
+        viewModel.viewStateUpdates.observeForever { viewStateValues.add(it) }
+    }
+
+    @Test
+    fun `loaded state contains repo models`() {
+        assertThat(viewStateValues.size).isEqualTo(1)
+        val expectedState = HomeViewStateLoaded(
+            repos = listOf(
+                RepoItem(
+                    name = fakeREpoApiModel.name,
+                    description = fakeREpoApiModel.description,
+                    starsCount = fakeREpoApiModel.stargazersCount,
+                    forkCount = fakeREpoApiModel.forksCount
+                )
+            )
+        )
+        assertThat(viewStateValues[0]).isEqualTo(expectedState)
     }
 }
 

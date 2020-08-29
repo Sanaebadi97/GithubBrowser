@@ -1,9 +1,9 @@
 package info.sanaebadi.repository
 
+import com.google.common.truth.Truth.assertThat
 import info.sanaebadi.githubapi.GithubApi
 import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
-import org.junit.Assert.assertThat
 import org.junit.Before
 import org.junit.Test
 
