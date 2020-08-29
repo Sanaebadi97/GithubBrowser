@@ -40,6 +40,7 @@ dependencies {
     implementation(project( ":repository"))
     implementation(project(mapOf("path" to ":appdeps")))
     implementation(project(mapOf("path" to ":homeScreen")))
+    implementation(project(mapOf("path" to ":appComponent")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)

@@ -1,4 +1,4 @@
-package info.sanaebadi.githubBrowser.application
+package info.sanaebadi.appcomponent
 
 import android.content.Context
 import dagger.BindsInstance

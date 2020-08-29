@@ -1,6 +1,7 @@
 package info.sanaebadi.githubBrowser.application
 
 import android.app.Application
+import info.sanaebadi.appcomponent.DaggerApplicationComponent
 import info.sanaebadi.appdeps.ApplicationDeps
 import info.sanaebadi.appdeps.HasApplicationDeps
 
