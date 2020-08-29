@@ -37,9 +37,8 @@ dependencies {
     api(project(":appComponent"))
     api(project(":appdeps"))
 
-    testImplementation(TestLibraries.junit4)
-    androidTestImplementation(TestLibraries.testRunner)
-    androidTestImplementation(TestLibraries.espresso)
+    implementation(TestLibraries.espresso)
+    implementation(TestLibraries.testExJunit)
 
     implementation(DaggerLib.dagger)
     implementation(DaggerLib.daggerSupport)

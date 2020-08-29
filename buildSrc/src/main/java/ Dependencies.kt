@@ -51,6 +51,7 @@ object TestLibraries {
         const val espresso = "3.2.0"
         const val truth = "1.0.1"
         const val archTesting = "2.1.0"
+        const val testExtJunit = "1.1.1"
     }
 
     const val junit4 = "junit:junit:${Versions.junit4}"
@@ -58,6 +59,7 @@ object TestLibraries {
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
     const val truth = "com.google.truth:truth:${Versions.truth}"
     const val archTesting = "androidx.arch.core:core-testing:${Versions.archTesting}"
+    const val testExJunit = "androidx.test.ext:junit:${Versions.testExtJunit}"
 }
 
 object DaggerLib {
