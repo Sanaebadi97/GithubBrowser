@@ -44,6 +44,8 @@ dependencies {
     implementation(project(mapOf("path" to ":appdeps")))
 
     testImplementation(TestLibraries.junit4)
+    testImplementation(TestLibraries.archTesting)
+    testImplementation(TestLibraries.truth)
     androidTestImplementation(TestLibraries.testRunner)
     androidTestImplementation(TestLibraries.espresso)
 
