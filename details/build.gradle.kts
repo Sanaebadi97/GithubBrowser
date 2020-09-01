@@ -36,12 +36,12 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
+    implementation(Libraries.material)
 
     implementation(Libraries.viewModel)
     implementation(Libraries.liveData)
 
     implementation(Libraries.fragmentKtx)
-    implementation("androidx.recyclerview:recyclerview:1.1.0")
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
