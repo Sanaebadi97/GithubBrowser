@@ -1,5 +1,6 @@
 package info.sanaebadi.githubapi
 
+import info.sanaebadi.githubapi.OkHttpConfigModule
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
@@ -10,7 +11,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.create
 import javax.inject.Singleton
 
-@Module(includes = [`OkHttpConfigModule.kt`::class])
+@Module(includes = [OkHttpConfigModule::class])
 object GithubApiModule {
 
     @Provides
