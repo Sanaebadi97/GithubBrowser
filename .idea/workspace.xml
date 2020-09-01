@@ -11,17 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/details/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details/src/androidTest/java/info/sanaebadi/details/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details/src/test/java/info/sanaebadi/details/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/details/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/details/proguard-rules.pro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,13 +289,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598268479130</updated>
-    </task>
-    <task id="LOCAL-00017" summary="created another module">
-      <created>1598630952499</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1598630952499</updated>
     </task>
     <task id="LOCAL-00018" summary="added Truth dependency in repository module">
       <created>1598633036242</created>
@@ -633,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598981762159</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="added details module">
+      <created>1598982187484</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1598982187484</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -651,7 +651,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created scope in di" />
     <MESSAGE value="added arch testing lib" />
     <MESSAGE value="added ViewModel Test" />
     <MESSAGE value="added ViewModel Test !" />
@@ -676,7 +675,8 @@
     <MESSAGE value="added url in Get github api interface" />
     <MESSAGE value="added OkHttpConfigurator interface" />
     <MESSAGE value="added debug folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added debug folder" />
+    <MESSAGE value="added details module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added details module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="138" key="#PSD" timestamp="1598980306526">
@@ -707,10 +707,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="169" y="49" width="910" height="498" key="CommitChangelistDialog2" timestamp="1598982171157">
+    <state x="169" y="49" width="910" height="498" key="CommitChangelistDialog2" timestamp="1598982187336">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="169" y="49" width="910" height="498" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598982171157" />
+    <state x="169" y="49" width="910" height="498" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598982187336" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598955496144">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -763,10 +763,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598954229278" />
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598981812311">
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598982203137">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598981812311" />
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598982203137" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598702088210">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
