@@ -26,6 +26,15 @@ android {
             )
         }
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    // For Kotlin projects
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
@@ -37,7 +46,7 @@ dependencies {
 
 
     implementation(project(":githubapi"))
-    implementation(project( ":repository"))
+    implementation(project(":repository"))
     implementation(project(mapOf("path" to ":appdeps")))
     implementation(project(mapOf("path" to ":homeScreen")))
     implementation(project(mapOf("path" to ":appComponent")))
