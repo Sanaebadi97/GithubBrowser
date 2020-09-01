@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/details/src/main/java/info/sanaebadi/details/RepoDetailsModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/src/main/java/info/sanaebadi/details/RepoDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/details/src/main/java/info/sanaebadi/details/RepoDetailsFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,34 +283,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598268479130</updated>
-    </task>
-    <task id="LOCAL-00025" summary="added repo item layout">
-      <created>1598638353826</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1598638353826</updated>
-    </task>
-    <task id="LOCAL-00026" summary="added Repo item adapter">
-      <created>1598638540922</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1598638540922</updated>
-    </task>
-    <task id="LOCAL-00027" summary="added life cycle dependencies and impliment repository in home screen module">
-      <created>1598640572279</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1598640572279</updated>
-    </task>
-    <task id="LOCAL-00028" summary="added SealedClass">
-      <created>1598641607417</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1598641607417</updated>
     </task>
     <task id="LOCAL-00029" summary="added ViewModel Factory">
       <created>1598643787493</created>
@@ -627,7 +599,35 @@
       <option name="project" value="LOCAL" />
       <updated>1598988717151</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="added RepoDetailsModule">
+      <created>1598988871251</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1598988871251</updated>
+    </task>
+    <task id="LOCAL-00075" summary="added module">
+      <created>1598988959422</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1598988959422</updated>
+    </task>
+    <task id="LOCAL-00076" summary="inject viewModel Factory">
+      <created>1598989035475</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1598989035475</updated>
+    </task>
+    <task id="LOCAL-00077" summary="added ViewModel">
+      <created>1598989098965</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1598989098965</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,10 +645,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added testing app module" />
-    <MESSAGE value="added FakeGithubApi in testing app" />
-    <MESSAGE value="added TestGithubApiModule.kt" />
-    <MESSAGE value="added TestApplication.kt" />
     <MESSAGE value="added coroutines" />
     <MESSAGE value="added coroutines and add suspend fun" />
     <MESSAGE value="added retrofit and moshi to dependenies" />
@@ -670,7 +666,11 @@
     <MESSAGE value="added epoDetailsComponent" />
     <MESSAGE value="added string.xml" />
     <MESSAGE value="added RepoDetailsViewModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="added RepoDetailsViewModel" />
+    <MESSAGE value="added RepoDetailsModule" />
+    <MESSAGE value="added module" />
+    <MESSAGE value="inject viewModel Factory" />
+    <MESSAGE value="added ViewModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ViewModel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="138" key="#PSD" timestamp="1598980306526">
@@ -701,10 +701,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="132" y="223" width="910" height="498" key="CommitChangelistDialog2" timestamp="1598989035355">
+    <state x="132" y="223" width="910" height="498" key="CommitChangelistDialog2" timestamp="1598989098851">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="132" y="223" width="910" height="498" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598989035355" />
+    <state x="132" y="223" width="910" height="498" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598989098851" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598955496144">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -757,10 +757,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598954229278" />
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598989036482">
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598989099857">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598989036482" />
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598989099857" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598702088210">
       <screen x="0" y="20" width="1366" height="748" />
     </state>

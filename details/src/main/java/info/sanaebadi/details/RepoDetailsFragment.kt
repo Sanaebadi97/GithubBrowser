@@ -1,5 +1,6 @@
 package info.sanaebadi.details
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -25,6 +26,11 @@ class RepoDetailsFragment : Fragment() {
     lateinit var viewModelFactory: AppViewModelFactory
     private val viewModel by lazy {
         ViewModelProvider(this, viewModelFactory)[RepoDetailsViewModel::class.java]
+    }
+
+    override fun onAttach(context: Context) {
+        inject()
+        super.onAttach(context)
     }
 
     override fun onCreateView(
