@@ -10,6 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubapi/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApiModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApiModule.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -278,13 +286,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598268479130</updated>
-    </task>
-    <task id="LOCAL-00010" summary="migrate to kotlin dsl">
-      <created>1598615485388</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1598615485388</updated>
     </task>
     <task id="LOCAL-00011" summary="added dagger libs">
       <created>1598616363422</created>
@@ -622,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598975957147</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added okHttp and Retrofit Provides">
+      <created>1598976347673</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1598976347673</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,7 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added appdeps module" />
     <MESSAGE value="added some interface in appdeps" />
     <MESSAGE value="added di in home module" />
     <MESSAGE value="added HomeComponent.kt" />
@@ -665,7 +672,8 @@
     <MESSAGE value="added data class for top repos from search" />
     <MESSAGE value="added Json correct name for model" />
     <MESSAGE value="added first provides in GithubApiModule.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first provides in GithubApiModule.kt" />
+    <MESSAGE value="added okHttp and Retrofit Provides" />
+    <option name="LAST_COMMIT_MESSAGE" value="added okHttp and Retrofit Provides" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="138" key="#PSD" timestamp="1598957728337">
@@ -696,10 +704,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="0" y="20" width="1366" height="748" key="CommitChangelistDialog2" timestamp="1598975957006">
+    <state x="0" y="20" width="1366" height="748" key="CommitChangelistDialog2" timestamp="1598976347548">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="0" y="20" width="1366" height="748" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598975957006" />
+    <state x="0" y="20" width="1366" height="748" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598976347548" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598955496144">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -736,10 +744,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598954229278" />
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598975958034">
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598976348840">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598975958034" />
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598976348840" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598702088210">
       <screen x="0" y="20" width="1366" height="748" />
     </state>

@@ -7,6 +7,7 @@ import okhttp3.Call
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
+import retrofit2.create
 import javax.inject.Singleton
 
 @Module
@@ -43,7 +44,12 @@ object GithubApiModule {
             .build()
     }
 
-
+    @Provides
+    @JvmStatic
+    @Singleton
+    fun provideGithubApi(retrofit: Retrofit): GithubApi {
+        return retrofit.create()
+    }
 
 
 }
