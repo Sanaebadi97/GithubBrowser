@@ -14,7 +14,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles ( "consumer-rules.pro")
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -34,14 +34,21 @@ dependencies {
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
 
-    testImplementation(TestLibraries.junit4)
-    androidTestImplementation(TestLibraries.testRunner)
-    androidTestImplementation(TestLibraries.espresso)
 
     implementation(DaggerLib.dagger)
     implementation(DaggerLib.daggerSupport)
     kapt(DaggerLib.daggerCompiler)
     kapt(DaggerLib.daggerProcessor)
+
+
+    implementation(Network.retrofit)
+    implementation(Network.converterMoshi)
+    kapt(Network.moshi)
+    kapt(Network.moshiKotlin)
+
+    testImplementation(TestLibraries.junit4)
+    androidTestImplementation(TestLibraries.testRunner)
+    androidTestImplementation(TestLibraries.espresso)
 
 
     implementation(Libraries.coroutinesCore)
