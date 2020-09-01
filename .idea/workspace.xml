@@ -11,23 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/model/RepoApiModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/model/RepoApiModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeScreen/src/main/java/info/sanaebadi/homescreen/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/homeScreen/src/main/java/info/sanaebadi/homescreen/HomeViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeScreen/src/main/res/layout/screen_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homeScreen/src/main/res/layout/screen_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeScreen/src/test/java/info/sanaebadi/homescreen/HomeViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/homeScreen/src/test/java/info/sanaebadi/homescreen/HomeViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApiModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/src/main/java/info/sanaebadi/githubapi/GithubApiModule.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +75,10 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/homeScreen/src/test/java/info/sanaebadi/homescreen" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FarazpardazanPro" />
     <property name="memory.settings.postsync.last.time.stamp" value="1598916953325" />
-    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PsdUISettings">
@@ -685,10 +670,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added url in Get github api interface" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="258" y="138" key="#PSD" timestamp="1598957728337">
+    <state x="258" y="138" key="#PSD" timestamp="1598980306526">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="258" y="138" key="#PSD/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598957728337" />
+    <state x="258" y="138" key="#PSD/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598980306526" />
     <state x="477" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1598718229482">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -769,10 +754,10 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598954229278" />
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598976708048">
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598980139460">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598976708048" />
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598980139460" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598702088210">
       <screen x="0" y="20" width="1366" height="748" />
     </state>

@@ -10,15 +10,15 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.create
 import javax.inject.Singleton
 
-@Module
+@Module(includes = [OkHttpConfigModule::class])
 object GithubApiModule {
 
     @Provides
     @JvmStatic
     @Singleton
 
-    fun provideOkhttp(): Call.Factory {
-        return OkHttpClient.Builder()
+    fun provideOkhttp(configurator: OkHttpConfigurator): Call.Factory {
+        return OkHttpClient.Builder().apply { configurator.configure(this) }
             .build()
     }
 
@@ -51,5 +51,7 @@ object GithubApiModule {
         return retrofit.create()
     }
 
-
+    interface OkHttpConfigurator {
+        fun configure(clientBuilder: OkHttpClient.Builder)
+    }
 }
