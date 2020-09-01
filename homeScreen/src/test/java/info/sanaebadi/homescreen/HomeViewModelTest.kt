@@ -7,6 +7,9 @@ import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
 import info.sanaebadi.homescreen.list.RepoItem
 import info.sanaebadi.repository.AppRepository
+import info.sanaebadi.testingapp.githubapi.FakeGithubApi
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.test.setMain
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -28,13 +31,16 @@ private val fakeREpoApiModel = RepoApiModel(
 
 class HomeViewModelTest {
 
-    @get:Rule val taskExecutorRule = InstantTaskExecutorRule()
+    @get:Rule
+    val taskExecutorRule = InstantTaskExecutorRule()
     private lateinit var viewModel: HomeViewModel
     private lateinit var viewStateValues: MutableList<HomeViewState>
 
     @Before
     fun setUp() {
-        val appRepository = AppRepository(FakeGithubApi())
+        Dispatchers.setMain(Dispatchers.Unconfined)
+        val appRepository =
+            AppRepository(FakeGithubApi().apply { repos = listOf(fakeREpoApiModel) })
         viewStateValues = mutableListOf()
 
         viewModel = HomeViewModel(appRepository)
@@ -58,10 +64,3 @@ class HomeViewModelTest {
     }
 }
 
-private class FakeGithubApi : GithubApi {
-
-    override fun getTopRepositories(): List<RepoApiModel> {
-        return listOf(fakeREpoApiModel)
-    }
-
-}

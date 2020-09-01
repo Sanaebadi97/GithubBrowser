@@ -33,9 +33,12 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
-    api (project(mapOf("path" to ":githubapi")))
-    api(project(mapOf("path" to ":testingapp")))
 
+
+    api (project(mapOf("path" to ":githubapi")))
+    testImplementation(project(mapOf("path" to ":testingapp")))
+
+    
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
     androidTestImplementation(TestLibraries.espresso)

@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import info.sanaebadi.di.scope.ScreenScope
 import info.sanaebadi.homescreen.list.RepoItem
 import info.sanaebadi.repository.AppRepository
+import kotlinx.coroutines.runBlocking
 import javax.inject.Inject
 
 @ScreenScope
@@ -17,7 +18,7 @@ class HomeViewModel @Inject constructor(
     val viewStateUpdates: LiveData<HomeViewState> = _viewState
 
     init {
-        val topRepos = appRepository.getTopRepos()
+        val topRepos = runBlocking { appRepository.getTopRepos() }
         _viewState.value = HomeViewStateLoaded(
             repos = topRepos.map {
                 RepoItem(
