@@ -86,11 +86,11 @@ object DaggerLib {
 object Network {
     private object Versions {
         const val retrofitVersion = "2.9.0"
-        const val moshiVersion = "1.9.3"
+        const val moshiVersion = "1.9.2"
     }
 
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofitVersion}"
     const val converterMoshi = "com.squareup.retrofit2:converter-moshi:${Versions.retrofitVersion}"
-    const val moshi = "com.squareup.moshi:moshi::${Versions.moshiVersion}"
+    const val moshi = "com.squareup.moshi:moshi:${Versions.moshiVersion}"
     const val moshiKotlin = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshiVersion}"
 }

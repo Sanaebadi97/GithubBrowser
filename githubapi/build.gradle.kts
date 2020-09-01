@@ -41,9 +41,9 @@ dependencies {
     kapt(DaggerLib.daggerProcessor)
 
 
-    implementation(Network.retrofit)
+    api(Network.retrofit)
     implementation(Network.converterMoshi)
-    kapt(Network.moshi)
+    api(Network.moshi)
     kapt(Network.moshiKotlin)
 
     testImplementation(TestLibraries.junit4)
