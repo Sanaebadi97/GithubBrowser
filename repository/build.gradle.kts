@@ -34,6 +34,7 @@ dependencies {
     implementation(Libraries.ktxCore)
     implementation(Libraries.constraintLayout)
     api (project(mapOf("path" to ":githubapi")))
+    api(project(mapOf("path" to ":testingapp")))
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
@@ -44,6 +45,10 @@ dependencies {
     implementation(DaggerLib.daggerSupport)
     kapt(DaggerLib.daggerCompiler)
     kapt(DaggerLib.daggerProcessor)
+
+
+    implementation(Libraries.coroutinesCore)
+    testImplementation(TestLibraries.coroutinesTest)
 
 
 }

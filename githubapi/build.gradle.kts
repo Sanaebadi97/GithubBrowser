@@ -44,4 +44,7 @@ dependencies {
     kapt(DaggerLib.daggerProcessor)
 
 
+    implementation(Libraries.coroutinesCore)
+    testImplementation(TestLibraries.coroutinesTest)
+
 }

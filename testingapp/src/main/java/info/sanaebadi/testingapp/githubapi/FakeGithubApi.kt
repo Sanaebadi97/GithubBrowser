@@ -8,9 +8,9 @@ import javax.inject.Singleton
 @Singleton
 class FakeGithubApi @Inject constructor() : GithubApi {
 
-    val repos = listOf<RepoApiModel>()
+    var repos = listOf<RepoApiModel>()
 
-    override fun getTopRepositories(): List<RepoApiModel> {
+    override suspend fun getTopRepositories(): List<RepoApiModel> {
         return repos
     }
 

@@ -31,6 +31,7 @@ object Libraries {
         const val constraintLayout = "2.0.0"
         const val ktx = "1.3.1"
         const val fragment = "1.2.5"
+        const val coroutines = "1.3.9"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
@@ -42,7 +43,10 @@ object Libraries {
     const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifeCycle}"
     const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifeCycle}"
     const val fragmentKtx = "androidx.fragment:fragment-ktx:${Versions.fragment}"
+    const val coroutinesCore =
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
 }
+
 
 object TestLibraries {
     private object Versions {
@@ -52,6 +56,8 @@ object TestLibraries {
         const val truth = "1.0.1"
         const val archTesting = "2.1.0"
         const val testExtJunit = "1.1.1"
+        const val fragmentTest = "1.2.5"
+        const val coroutinesTest = "1.3.9"
     }
 
     const val junit4 = "junit:junit:${Versions.junit4}"
@@ -60,6 +66,9 @@ object TestLibraries {
     const val truth = "com.google.truth:truth:${Versions.truth}"
     const val archTesting = "androidx.arch.core:core-testing:${Versions.archTesting}"
     const val testExJunit = "androidx.test.ext:junit:${Versions.testExtJunit}"
+    const val fragmentTest = "androidx.fragment:fragment-testing:${Versions.fragmentTest}"
+    const val coroutinesTest =
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutinesTest}"
 }
 
 object DaggerLib {

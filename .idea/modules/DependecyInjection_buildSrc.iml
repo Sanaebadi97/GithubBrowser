@@ -61,13 +61,13 @@
     <output-test url="file://$MODULE_DIR$/../../buildSrc/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../buildSrc">
-      <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/test/kotlin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/test/groovy" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/test/kotlin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../buildSrc/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../buildSrc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../buildSrc/build" />
@@ -92,7 +92,7 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: gradle-kotlin-dsl-6.1.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: gradle-kotlin-dsl-tooling-models-6.1.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="Gradle: gradle-test-kit-6.1.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="Gradle: _home_sanaebadi_Pasport_and_dev_workplace_Github_GithubBrowser__buildSrc_build_pluginUnderTestMetadata" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: _home_sanaebadi_Pasport_and_dev_workplace_GithubBrowser__buildSrc_build_pluginUnderTestMetadata" level="project" />
     <orderEntry type="library" exported="" name="Gradle: DependecyInjection_buildSrc.buildSrc" level="project" />
   </component>
 </module>

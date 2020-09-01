@@ -25,8 +25,9 @@ android {
             )
         }
     }
-
-    viewBinding.isEnabled = true
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 
@@ -42,6 +43,7 @@ dependencies {
     implementation(project(mapOf("path" to ":repository")))
     implementation(project(mapOf("path" to ":di")))
     implementation(project(mapOf("path" to ":appdeps")))
+    api(project(mapOf("path" to ":testingapp")))
 
     testImplementation(TestLibraries.junit4)
     testImplementation(TestLibraries.archTesting)
@@ -54,4 +56,7 @@ dependencies {
     implementation(DaggerLib.daggerSupport)
     kapt(DaggerLib.daggerCompiler)
     kapt(DaggerLib.daggerProcessor)
+
+    implementation(Libraries.coroutinesCore)
+    testImplementation(TestLibraries.coroutinesTest)
 }

@@ -1,9 +1,10 @@
 package info.sanaebadi.repository
 
 import com.google.common.truth.Truth.assertThat
-import info.sanaebadi.githubapi.GithubApi
 import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
+import info.sanaebadi.testingapp.githubapi.FakeGithubApi
+import kotlinx.coroutines.runBlocking
 import org.junit.Before
 import org.junit.Test
 
@@ -25,7 +26,7 @@ private val fakeREpoApiModel = RepoApiModel(
 class AppRepositoryTest {
 
     private lateinit var appRepository: AppRepository
-    private val fakeGithubApi = FakeGithubApi()
+    private val fakeGithubApi = FakeGithubApi().apply { repos = listOf(fakeREpoApiModel) }
 
     @Before
     fun setUp() {
@@ -33,18 +34,11 @@ class AppRepositoryTest {
     }
 
     @Test
-    fun successfulQuery() {
-        val topRepos = appRepository.getTopRepos()
+    suspend fun successfulQuery() {
+        val topRepos = runBlocking { appRepository.getTopRepos() }
 
         assertThat(topRepos.size).isEqualTo(1)
         assertThat(topRepos[0]).isEqualTo(fakeREpoApiModel)
     }
 }
 
-private class FakeGithubApi : GithubApi {
-
-    override fun getTopRepositories(): List<RepoApiModel> {
-        return listOf(fakeREpoApiModel)
-    }
-
-}

@@ -9,7 +9,7 @@ import javax.inject.Singleton
 class AppRepository @Inject constructor(
     private val githubApi: GithubApi
 ) {
-    fun getTopRepos(): List<RepoApiModel> {
+    suspend fun getTopRepos(): List<RepoApiModel> {
         return githubApi.getTopRepositories()
     }
 }
