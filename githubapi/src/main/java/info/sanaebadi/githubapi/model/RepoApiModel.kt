@@ -1,8 +1,10 @@
 package info.sanaebadi.githubapi.model
 
 import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
 
-data class RepoApiModel(
+@JsonClass(generateAdapter = true)
+data class RepoApiMeodel(
     val id: Long,
     val name: String,
     val description: String,
