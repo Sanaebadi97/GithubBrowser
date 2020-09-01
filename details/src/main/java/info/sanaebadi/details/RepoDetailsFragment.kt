@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import info.sanaebadi.details.databinding.ScreenDetailsBinding
 import info.sanaebadi.di.viewModel.AppViewModelFactory
 import javax.inject.Inject
@@ -22,7 +23,9 @@ class RepoDetailsFragment : Fragment() {
 
     @Inject
     lateinit var viewModelFactory: AppViewModelFactory
-
+    private val viewModel by lazy {
+        ViewModelProvider(this, viewModelFactory)[RepoDetailsViewModel::class.java]
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
