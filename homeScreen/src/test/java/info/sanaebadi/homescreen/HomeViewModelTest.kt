@@ -2,7 +2,6 @@ package info.sanaebadi.homescreen
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.google.common.truth.Truth.assertThat
-import info.sanaebadi.githubapi.GithubApi
 import info.sanaebadi.githubapi.model.RepoApiModel
 import info.sanaebadi.githubapi.model.UserApiModel
 import info.sanaebadi.homescreen.list.RepoItem
@@ -54,7 +53,7 @@ class HomeViewModelTest {
             repos = listOf(
                 RepoItem(
                     name = fakeREpoApiModel.name,
-                    description = fakeREpoApiModel.description,
+                    description = fakeREpoApiModel.description ?: "",
                     starsCount = fakeREpoApiModel.stargazersCount,
                     forkCount = fakeREpoApiModel.forksCount
                 )

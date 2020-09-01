@@ -4,10 +4,10 @@ import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
-data class RepoApiMeodel(
+data class RepoApiModel(
     val id: Long,
     val name: String,
-    val description: String,
+    val description: String?,
     val owner: UserApiModel,
     @Json(name = "stargazers_count") val stargazersCount: Int,
     @Json(name = "forks_count") val forksCount: Int,
