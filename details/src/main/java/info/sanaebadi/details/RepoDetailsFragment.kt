@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import info.sanaebadi.details.databinding.ScreenDetailsBinding
+import info.sanaebadi.di.viewModel.AppViewModelFactory
+import javax.inject.Inject
 
 class RepoDetailsFragment : Fragment() {
     companion object {
@@ -17,6 +19,10 @@ class RepoDetailsFragment : Fragment() {
             return RepoDetailsFragment().apply { arguments = args }
         }
     }
+
+    @Inject
+    lateinit var viewModelFactory: AppViewModelFactory
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
