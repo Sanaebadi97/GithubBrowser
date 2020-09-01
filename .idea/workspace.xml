@@ -11,10 +11,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6abb1c5-8f28-477b-823d-e442f4861afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/details/src/main/java/info/sanaebadi/details/RepoDetailsComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/details/src/main/res/values/string.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__DependecyInjection_buildSrc_buildSrc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_26_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_26_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_26_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_api_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_installation_beacon_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_kotlin_dsl_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_kotlin_dsl_extensions_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_kotlin_dsl_tooling_models_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_test_kit_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_all_1_3_2_5_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk8_1_3_61.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/constants.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/source-roots/buildSrc/source-roots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/src/main/java/info/sanaebadi/details/RepoDetailsComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/details/src/main/java/info/sanaebadi/details/RepoDetailsComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/src/main/res/layout/screen_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/details/src/main/res/layout/screen_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubapi/src/debug/java/info/sanaebadi/githubapi/OkHttpConfigModule.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +144,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
         <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="layoutResourceFile" />
         <option value="Kotlin File" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -282,13 +389,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598268479130</updated>
-    </task>
-    <task id="LOCAL-00022" summary="cleaned project from extra modules">
-      <created>1598636979735</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1598636979735</updated>
     </task>
     <task id="LOCAL-00023" summary="added data class for list">
       <created>1598637137522</created>
@@ -626,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598984571253</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="added epoDetailsComponent">
+      <created>1598986271667</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1598986271667</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,7 +751,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added FragmentContainerView in activity main" />
     <MESSAGE value="added transaction  homeFragment in MainActivity.kt" />
     <MESSAGE value="added new module" />
     <MESSAGE value="added testing app module" />
@@ -669,7 +775,8 @@
     <MESSAGE value="added screen_details.xml" />
     <MESSAGE value="added base of details screen xml" />
     <MESSAGE value="added progress bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="added progress bar" />
+    <MESSAGE value="added epoDetailsComponent" />
+    <option name="LAST_COMMIT_MESSAGE" value="added epoDetailsComponent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="258" y="138" key="#PSD" timestamp="1598980306526">
@@ -688,22 +795,22 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="440" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598955087722" />
-    <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog" timestamp="1598982643208">
+    <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog" timestamp="1598987289155">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598982643208" />
-    <state x="270" y="155" key="AndroidCreateResourceFileDialog" timestamp="1598637421854">
+    <state x="270" y="155" key="AndroidCreateResourceDirectoryDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598987289155" />
+    <state x="270" y="155" key="AndroidCreateResourceFileDialog" timestamp="1598987302949">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="270" y="155" key="AndroidCreateResourceFileDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598637421854" />
+    <state x="270" y="155" key="AndroidCreateResourceFileDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598987302949" />
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog" timestamp="1598269657587">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="552" y="207" key="AndroidCreateXmlResourceDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598269657587" />
-    <state x="169" y="49" width="910" height="498" key="CommitChangelistDialog2" timestamp="1598984571159">
+    <state x="132" y="223" width="910" height="498" key="CommitChangelistDialog2" timestamp="1598987352421">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="169" y="49" width="910" height="498" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598984571159" />
+    <state x="132" y="223" width="910" height="498" key="CommitChangelistDialog2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598987352421" />
     <state x="99" y="120" width="1168" height="549" key="DiffContextDialog" timestamp="1598955496144">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
@@ -720,46 +827,46 @@
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="427" y="24" key="Github.UntrackedFilesDialog/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598268820483" />
-    <state width="1320" height="110" key="GridCell.Tab.0.bottom" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.0.bottom" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.0.bottom/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
-    <state width="1320" height="110" key="GridCell.Tab.0.center" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.0.bottom/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
+    <state width="1320" height="110" key="GridCell.Tab.0.center" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.0.center/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
-    <state width="1320" height="110" key="GridCell.Tab.0.left" timestamp="1598979853528">
+    <state width="1320" height="110" key="GridCell.Tab.0.center/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
+    <state width="1320" height="110" key="GridCell.Tab.0.left" timestamp="1598986791685">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.0.left/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853528" />
-    <state width="1320" height="110" key="GridCell.Tab.0.right" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.0.left/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791685" />
+    <state width="1320" height="110" key="GridCell.Tab.0.right" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.0.right/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
-    <state width="1320" height="110" key="GridCell.Tab.1.bottom" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.0.right/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
+    <state width="1320" height="110" key="GridCell.Tab.1.bottom" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.1.bottom/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
-    <state width="1320" height="110" key="GridCell.Tab.1.center" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.1.bottom/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
+    <state width="1320" height="110" key="GridCell.Tab.1.center" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.1.center/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
-    <state width="1320" height="110" key="GridCell.Tab.1.left" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.1.center/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
+    <state width="1320" height="110" key="GridCell.Tab.1.left" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.1.left/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
-    <state width="1320" height="110" key="GridCell.Tab.1.right" timestamp="1598979853529">
+    <state width="1320" height="110" key="GridCell.Tab.1.left/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
+    <state width="1320" height="110" key="GridCell.Tab.1.right" timestamp="1598986791686">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state width="1320" height="110" key="GridCell.Tab.1.right/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598979853529" />
+    <state width="1320" height="110" key="GridCell.Tab.1.right/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986791686" />
     <state x="198" y="32" key="SettingsEditor" timestamp="1598954229278">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
     <state x="198" y="32" key="SettingsEditor/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598954229278" />
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598985594310">
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2" timestamp="1598986272685">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
-    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598985594310" />
+    <state x="282" y="129" width="802" height="531" key="Vcs.Push.Dialog.v2/0.20.1366.748/1366.0.1920.1080@0.20.1366.748" timestamp="1598986272685" />
     <state x="518" y="178" key="chooseDestDirectoryDialog" timestamp="1598702088210">
       <screen x="0" y="20" width="1366" height="748" />
     </state>
