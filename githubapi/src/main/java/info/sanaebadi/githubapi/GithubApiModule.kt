@@ -10,7 +10,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.create
 import javax.inject.Singleton
 
-@Module(includes = [OkHttpConfigModule::class])
+@Module(includes = [`OkHttpConfigModule.kt`::class])
 object GithubApiModule {
 
     @Provides
